@@ -1,0 +1,5 @@
+librosa
+resampy
+loguru
+soundfile
+numpy
