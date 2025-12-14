@@ -63,7 +63,7 @@ def validate_paths(arguments) -> bool:
     if not pathlib.Path(DEFAULT["rmvpe"]).exists():
         loguru.logger.error(f"RMVPE model not found: {DEFAULT['rmvpe']}")
         loguru.logger.info("Please download pitch extractor and place it in checkpoints/rmvpe/")
-        loguru.logger.info("TIP: yxlllc's is recommended over lj1995's RMVPE (co-author of RMVPE)")
+        loguru.logger.info("TIP: yxlllc's is recommended over lj1995's RMVPE (co-author of RVC AI)")
 
         return False
     
@@ -143,3 +143,4 @@ def main():
     
 if __name__ == "__main__":
     sys.exit(main())
+
