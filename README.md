@@ -37,3 +37,10 @@ Place both checkpoints in this structure:
 |---- modules
 |     | #....
 ```
+
+## How to use
+Find the 44.1kHz recording you want to edit.
+Then enter this command:
+```
+python shift.py --input <your_WAV_file/your_folder> --output ./<output_WAV_file/output_folder> --key_shift <how many semitones you want to shift> --device <run it on CUDA or CPU> --recursive (optional) --overwrite (optional) --format (wav, flac, mp3) --verbose (if debug) --quiet (optional) --silent (optional) --add_suffix (if you want to see the shifted value in output filename)
+```
