@@ -26,6 +26,7 @@ RMVPE:
 TIP: I recommend the yxlllc version, as it has a wider range again.
 
 Place both checkpoints in this structure:
+```
 <PitchShift AI folder>
 |---- checkpoints
 |      |---- nsf_hifigan
@@ -35,3 +36,4 @@ Place both checkpoints in this structure:
 |             |---- model.pt
 |---- modules
 |     | #....
+```
